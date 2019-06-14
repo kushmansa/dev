@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <!--visible part of the form to fill out-->
+    <form name="passengerInfo">
+        firstname:<input type="text" name="fname">
+        lastname:<input type="text" name="lname">
+        age: <input type="number" name= "age">
+        male:<input type="radio" name="radioInput" value="male">
+        female:<input type="radio" name="radioInput" value="female">
+        other:<input type="radio" name="radioInput" value="other">
+        destination<select name = "destination">
+            <option value="seminole island">seminole island</option>
+            <option value="antartica">antartica</option>
+            <option value="salt lake">salt lake</option>
+        </select>
+
+            <input type= "checkbox" name= "foodoptions" value = "food platter" >food platter
+            <input type= "checkbox" name= "foodoptions" value = "vegan options">vegan options
+            <input type= "checkbox" name= "foodoptions" value = "snack pack">snack pack
+            <input type= "checkbox" name= "foodoptions" value = "water only">water only
+        
+        <button id="mybutton"> submit all tings</button>
+    </form>
+    <script src="./travel.js"></script>
+</body>
+</html>

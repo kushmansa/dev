@@ -1,0 +1,14 @@
+h1 {
+    color: blueviolet;
+    text-align: center;
+}
+
+.realdoc{
+    color: red;
+}
+
+p{
+    display:inline-block;
+    width: 400px;
+    height:20px;
+}

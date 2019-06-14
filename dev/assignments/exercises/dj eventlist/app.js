@@ -1,0 +1,1 @@
+var myInput = document.getElementById("my-input")
